@@ -36,6 +36,8 @@ class Application(tk.Tk):
         self.btn.pack(anchor=S)
         self.btn2 = tk.Button(self, text="Count", command=self.generuj)
         self.btn2.pack(anchor=S)
+        self.btn3 = tk.Button(self, text="Check", command=self.check)
+        self.btn3.pack(anchor=S)
 
         self.generuj()
 
